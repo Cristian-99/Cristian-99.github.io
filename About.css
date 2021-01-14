@@ -1,0 +1,154 @@
+
+
+#AboutTitle {
+  height: 150px;
+  text-align: center;
+  color: white;
+}
+
+#myPic {
+  height: 300px;
+  width: 370px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20%;
+}
+
+#MyDescript {
+  color: white;
+  font-size: 25px;
+  text-align: left;
+  text-align: justify;
+  position: relative;
+  white-space: wrap; 
+  margin-top: 25px; 
+  margin-bottom: 50px;
+}
+
+.container {
+  background: ff9;
+  position: relative;  
+  margin-left: auto;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: rgb(14, 12, 12);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-image: url("Moon.png");
+}
+
+
+.type {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* Animation */
+.type {
+  animation: animated-text 2s steps(17,end) 1s 1 normal both,
+             animated-cursor 600ms steps(17,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 150px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
+
+#header {
+  font-size: 80px;
+  color: white;
+  margin: -2rem 0 2rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-size: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+header {
+  margin-bottom: 3rem;
+}
+.site-header {
+  background-color: #000;
+}
+
+.site-header .navbar-nav li .nav-link {
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.site-header .navbar-nav li.active a {
+  background-color: #111;
+}
+
+.social-media-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.social-media-holder a {
+  margin: 0 0.8rem;
+}
+
+section.introduction-holder {
+  margin-top: 3rem;
+}
+
+.project-holder {
+  margin-bottom: 5rem;
+}
+
+/* visible style in large device */
+@media (min-width: 992px) {
+  .site-header {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

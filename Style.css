@@ -1,0 +1,114 @@
+
+ 
+
+html {
+  overflow-x: hidden;
+}
+
+#gif {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+ #myVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.button {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  opacity: 0.65;
+  display: inline-block;
+  text-align: center;
+  width: auto;
+}
+
+#myName {
+  z-index: 1;
+  font-size: 75px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#software_title {
+  text-align: center;
+
+  font-size: 45px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  font-size: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#GitHubLogo {
+  height: 80px;
+  width: 80px;
+}
+
+#Linkedin_Logo {
+  height: 80px;
+  width: 80px;
+}
+
+
+header {
+  margin-bottom: 3rem;
+}
+.site-header {
+  background-color: #000;
+}
+
+.site-header .navbar-nav li .nav-link {
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.site-header .navbar-nav li.active a {
+  background-color: #111;
+}
+
+
+
+/* visible style in large device */
+@media (min-width: 992px) {
+  .site-header {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,192 @@
+
+body{
+  background-color: rgb(14, 12, 12);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-image: url("Moon.png");
+}
+
+
+#header {
+  font-size: 80px;
+  text-align: center;
+  color:white;
+
+  margin: -2rem 0 2rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-size: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#GitHubLogo {
+  height: 75px;
+  width: 75px;
+  margin-bottom: 20px;
+
+}
+
+
+
+#taco_title {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+#taco_description {
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+  margin: 25px auto 50px;
+  max-width: 835px;
+  padding: 0 15px;
+  text-align: justify;
+  text-align: left;
+}
+
+#taco_button {
+  width: 260px;
+  height: 50px;
+  border: black;
+  box-shadow: 0 0 0 2px #1c2b2d;
+  color: black;
+  background: white;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  opacity: 0.8;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#average_title {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#average_description {
+  text-align: justify;
+  text-align: left;
+  color: white;
+  font-size: 22px;
+  margin: 25px auto 50px;
+  max-width: 835px;
+  padding: 0 15px;
+  font-weight: bold;
+}
+
+#average_button {
+  width: 250px;
+  height: 50px;
+  white-space: nowrap;
+  border: black;
+  box-shadow: 0 0 0 2px #1c2b2d;
+  color: black;
+  background: white;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  opacity: 0.8;
+}
+
+#madlib_title {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+#madlib_description {
+  text-align: justify;
+  text-align: left;
+  color: white;
+  font-size: 22px;
+  margin: 25px auto 50px;
+  max-width: 900px;
+  font-weight: bold;
+  padding: 0 15px;
+}
+
+#madlib_button {
+  width: 250px;
+  height: 50px;
+  border: black;
+  box-shadow: 0 0 0 2px #1c2b2d;
+  color: black;
+  background: white;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  opacity: 0.8;
+  margin-bottom: 50px;
+}
+
+
+
+header {
+  margin-bottom: 3rem;
+}
+.site-header {
+  background-color: #000;
+}
+
+.site-header .navbar-nav li .nav-link {
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.site-header .navbar-nav li.active a {
+  background-color: #111;
+}
+
+
+
+section.introduction-holder {
+  margin-top: 3rem;
+}
+
+.project-holder {
+  margin-bottom: 5rem;
+}
+
+/* visible style in large device */
+@media (min-width: 992px) {
+  .site-header {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
