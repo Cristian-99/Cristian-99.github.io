@@ -83,12 +83,12 @@ header {
 }
 
 .fa-instagram {
-  background: #125688;
+  background: #007bb5;
   color: white;
 }
 
 .fa-github {
-  color: rgb(250, 250, 250);
+  color: white;
   background-color: #55acee;
 }
 
@@ -100,7 +100,6 @@ header {
 .container {
   display: table-cell;
   text-align: center;
-  vertical-align: middle;
   display: block;
   margin-left: auto;
   margin-right: auto;

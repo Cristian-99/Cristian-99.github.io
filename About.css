@@ -19,11 +19,11 @@
   color: white;
   font-size: 25px;
   text-align: left;
-  text-align: justify;
   position: relative;
   white-space: wrap; 
   margin-top: 25px; 
   margin-bottom: 50px;
+  word-spacing: normal;
 }
 
 .container {
