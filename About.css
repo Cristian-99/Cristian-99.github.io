@@ -7,23 +7,22 @@
 }
 
 #myPic {
-  height: 300px;
-  width: 370px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20%;
+  height: 304px;
+  width: 281px;
 }
 
 #MyDescript {
   color: white;
-  font-size: 25px;
-  text-align: left;
   position: relative;
   white-space: wrap; 
   margin-top: 25px; 
   margin-bottom: 50px;
   word-spacing: normal;
+  text-align: left;
 }
 
 .container {
@@ -150,5 +149,17 @@ section.introduction-holder {
   .site-header {
     padding-top: 0;
     padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  p {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 25px;
   }
 }
