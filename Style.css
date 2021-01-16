@@ -1,9 +1,7 @@
 
- 
-
 html {
   overflow-x: hidden;
-}
+  }
 
 #gif {
   object-fit: cover;
@@ -104,8 +102,6 @@ header {
 }
 
 
-
-/* visible style in large device */
 @media (min-width: 992px) {
   .site-header {
     padding-top: 0;
