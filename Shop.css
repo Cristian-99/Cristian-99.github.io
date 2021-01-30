@@ -1,41 +1,52 @@
 img {
-    background-color:#fff;
-    width: 300px;
-    height: 300px;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     display: block;
 }
+
 h1 {
     font-size: 50px;
     text-align: center;
     margin-bottom: 25px;
+    margin-top: 30px;;
     font-family: 'Merriweather', serif;
 }
+
+h4 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+}
+
 
 figcaption {
     text-align: center;
     font-size: 25px;
 }
 
-#shirt {
+#original {
     width: 373px;
     height: 373px;
 }
 
-#long-sleeve {
-    width: 373px;
+#red-drop {
+    width: 350px;
+    height: 320px;
 }
 
-#hoodie {
+#spaceman {
     width: 373px;
     height: 373px;
 }
 
-#women-shirt {
-  width: 373px;
-  height: 373px;
+#rainbow {
+    width: 350px;
+    height: 300px;
+    margin-bottom: 10px;
 }
 
 button {
@@ -52,74 +63,74 @@ button {
     font-size: 20px;
     margin-bottom: 80px;
 }
+
 #header {
     font-size: 80px;
     color: white;
     margin: -2rem 0 2rem;
-  }
-  
-  ul {
+}
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
     font-size: 20px;
-  }
-  
-  li {
+}
+
+li {
     float: left;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover {
+}
+
+li a:hover {
     background-color: #111;
-  }
-  
-  header {
+}
+
+header {
     margin-bottom: 3rem;
-  }
-  .site-header {
+}
+
+.site-header {
     background-color: #000;
-  }
-  
-  .site-header .navbar-nav li .nav-link {
+}
+
+.site-header .navbar-nav li .nav-link {
     color: #fff;
     padding-top: 1rem;
     padding-bottom: 1rem;
-  }
-  
-  .site-header .navbar-nav li.active a {
-    background-color: #111;
-  }
-  
- 
-  /* visible style in large device */
-  @media (min-width: 992px) {
-    .site-header {
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-  }
-  
-  @media screen and (min-width: 601px) {
-    p {
-      font-size: 32px;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    p {
-      font-size: 25px;
-    }
-  }
-  
+}
 
-  
+.site-header .navbar-nav li.active a {
+    background-color: #111;
+}
+
+
+/* visible style in large device */
+
+@media (min-width: 992px) {
+    .site-header {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    p {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 25px;
+    }
+}
