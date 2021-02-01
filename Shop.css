@@ -8,39 +8,61 @@ img {
     display: block;
 }
 
+body {
+    background-color: black;
+}
+
 #shop {
     margin-top: 50px;
     height: 200px;
     width: 200px;
     border-radius: 80%;
     font-size: 35px;
-    background-color: #091F36;
+    background-image: linear-gradient(45deg, #5900ff, #8340ff);
+}
+
+#lgo {
+    background-color:black;
+    height: 200px;
+    width: 210px;
 }
 
 h4 {
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 15px;
+    font-size: 35px;
+    background-image: linear-gradient(45deg, #5900ff, #8340ff);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
 }
 
 figcaption {
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
+    color: white;
 }
 
 #original {
     width: 373px;
     height: 373px;
+    background-color: black;
 }
 
 #original-button {
-    background-color: #091F36;
+    background-image: linear-gradient(45deg, #5900ff, #8340ff);
     border: 0px;
 }
 
 #red-drop {
     width: 350px;
     height: 320px;
+    background-color:red;
+    border-radius: 20%;
+    margin-bottom: 30px;
 }
 
 #red-button {
@@ -52,21 +74,24 @@ figcaption {
 #spaceman {
     width: 373px;
     height: 373px;
+    background-color:black;
 }
 
 #space-button {
     border: 0px;
-    background-image: linear-gradient(to right, #FF41DF, #FE3268);
+    background-image: linear-gradient(45deg, #5900ff, #8340ff);
 }
 
 #rainbow {
     width: 350px;
     height: 300px;
     margin-bottom: 10px;
+    background-color:black;
+    margin-bottom: 30px;
 }
 
 #rainbow-button {
-    background-image: linear-gradient(to right, #C70039, #F37121);
+    background-image: linear-gradient(45deg, #5900ff, #8340ff, pink);
     border: 0px
 }
 

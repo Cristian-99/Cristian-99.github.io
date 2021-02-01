@@ -129,8 +129,7 @@ header {
 }
 
 @keyframes neon {
-    0%,
-    100% {
+    0%, 100% {
         text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
         color: #FED128;
     }
@@ -148,8 +147,7 @@ header {
 }
 
 @keyframes flux {
-    0%,
-    100% {
+    0%, 100% {
         text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
         color: #28D7FE;
     }
@@ -198,6 +196,7 @@ header {
     aspect-ratio: 1;
     height: 40px;
     margin-right: 15px;
+
 }
 
 #email-link {
@@ -215,7 +214,6 @@ header {
     margin: 10px 0 10px 0;
 }
 
-
 /* visible style in large device */
 
 @media (min-width: 992px) {
@@ -224,7 +222,6 @@ header {
         padding-bottom: 0;
     }
 }
-
 
 /* visible style in small devices */
 

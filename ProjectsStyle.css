@@ -1,19 +1,19 @@
 
 body{
-  background-color: rgb(14, 12, 12);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-  background-image: url("Moon.png");
+  background-color: black; 
 }
 
 
 #header {
   font-size: 80px;
   text-align: center;
-  color:white;
-
+  background-image: linear-gradient(45deg, #5900ff, #8340ff);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
   margin: -2rem 0 2rem;
 }
 
@@ -59,22 +59,22 @@ li a:hover {
 }
 
 #taco_description {
-  color: white;
+  color: #5f5c5c;
   font-size: 22px;
   margin: 25px auto 50px;
   max-width: 835px;
   padding: 0 15px;
   text-align: justify;
   text-align: left;
+  font-family: "Open Sans", sans-serif;
+
 }
 
 #taco_button {
   width: 260px;
   height: 50px;
   border: black;
-  box-shadow: 0 0 0 2px #1c2b2d;
-  color: black;
-  background: white;
+  background-image: linear-gradient(45deg, #5900ff, #8340ff);
   cursor: pointer;
   border-radius: 10px;
   font-family: "Open Sans", sans-serif;
@@ -82,6 +82,7 @@ li a:hover {
   opacity: 0.8;
   text-align: center;
   white-space: nowrap;
+  color: white;
 }
 
 #average_title {
@@ -95,11 +96,12 @@ li a:hover {
 #average_description {
   text-align: justify;
   text-align: left;
-  color: white;
+  color: #5f5c5c;
   font-size: 22px;
   margin: 25px auto 50px;
   max-width: 835px;
   padding: 0 15px;
+  font-family: "Open Sans", sans-serif;
 }
 
 #average_button {
@@ -107,14 +109,13 @@ li a:hover {
   height: 50px;
   white-space: nowrap;
   border: black;
-  box-shadow: 0 0 0 2px #1c2b2d;
-  color: black;
-  background: white;
+  background-image: linear-gradient(45deg, #5900ff, #8340ff);
   cursor: pointer;
   border-radius: 10px;
   font-family: "Open Sans", sans-serif;
   font-size: 25px;
   opacity: 0.8;
+  color: white;
 }
 
 #madlib_title {
@@ -128,11 +129,12 @@ li a:hover {
 #madlib_description {
   text-align: justify;
   text-align: left;
-  color: white;
+  color: #5f5c5c;
   font-size: 22px;
   margin: 25px auto 50px;
   max-width: 900px;
   padding: 0 15px;
+  font-family: "Open Sans", sans-serif;
 }
 
 #madlib_button {
@@ -140,8 +142,8 @@ li a:hover {
   height: 50px;
   border: black;
   box-shadow: 0 0 0 2px #1c2b2d;
-  color: black;
-  background: white;
+  color: white;
+  background-image: linear-gradient(45deg, #5900ff, #8340ff);
   cursor: pointer;
   border-radius: 10px;
   font-family: "Open Sans", sans-serif;
