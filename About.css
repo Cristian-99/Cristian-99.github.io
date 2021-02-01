@@ -11,10 +11,7 @@
     border-radius: 20%;
     height: 304px;
     width: 281px;
-    box-shadow:
- 20px 5px 20px #5900ff,
-   0px 5px 20px #8340ff,
-  -20px 5px 20px #8340ff;
+    box-shadow: 20px 5px 20px #5900ff, 0px 5px 20px #8340ff, -20px 5px 20px #8340ff;
     background-image: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%);
 }
 
@@ -202,7 +199,6 @@ section.introduction-holder {
 
 #button {
     background-image: linear-gradient(45deg, #5900ff, #8340ff);
-
 }
 
 button {

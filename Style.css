@@ -9,7 +9,90 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-image: url("back.jpg");
+  
 }
+
+.loader {
+  width: 128px;
+  height: 128px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.loader::after,
+.loader::before {
+  content: '';  
+  box-sizing: border-box;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: animloader 2s linear infinite;
+}
+.loader::after {
+  animation-delay: 1s;
+  left: 0;
+  top: 0;
+}
+
+@keyframes animloader {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+/* Modified
+
+.loader {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background: #f5ff9a;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.loader::after,
+.loader::before {
+  content: '';  
+  box-sizing: border-box;
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+  background: #8430ff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+  animation: animloader 2s linear infinite;
+}
+.loader::after {
+  animation-delay: 1s;
+}
+*/
+/* Modified
+@keyframes animloader {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+   */ 
 
 figcaption {
   font-size:35px;
@@ -34,16 +117,9 @@ figcaption {
 #software_title {
   text-align: center;
   font-size: 45px;
-  /*
-  background-image: linear-gradient(50deg, white, #5900ff);
-  background-size: 100%;
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;*/
   color: white;
 }
+
 
 ul {
   font-size: 20px;
